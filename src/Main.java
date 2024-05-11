@@ -29,5 +29,13 @@ public class Main {
      for(int x=0; x<numbers.length; x++){
          System.out.println(numbers[x]);
      }
+
+        System.out.println("==========Lowest========");
+     int lowest = numbers[0];
+     for(int x=0; x<numbers.length; x++){
+         if(numbers[x] > lowest){
+             System.out.println(lowest);
+         }
+     }
     }
 }
